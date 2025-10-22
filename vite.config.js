@@ -5,6 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/site-quartille/', // 👈 troque se o nome do repositório for diferente
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
